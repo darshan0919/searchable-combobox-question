@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars -- stubs until milestones M1–M4 are implemented */
 import { useState } from "react";
-import { searchOptions } from "../../api/mockSearch";
-import { getFocusedIndex } from "../../lib/getFocusedIndex";
+import { searchOptions } from "./mockSearch";
+import { getFocusedIndex } from "./getFocusedIndex";
 import "./SearchableCombobox.css";
 
 export default function SearchableCombobox() {
